@@ -1,0 +1,115 @@
+*{
+    text-decoration: none;
+
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(251, 251, 243);
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.home{
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li img {
+    width: 70px;
+}
+
+.nav-left{
+    flex: 60%;
+}
+
+.nav-right{
+    flex: 30%;
+    text-align: end;
+    margin-right: 70px;
+}
+
+.nav-right a {
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.link a {
+    background-color: black;
+    color: white;
+    border: 10px;
+    padding:5px 20px;
+    border-radius: 10px;
+}
+
+.profil{
+    display: flex;
+    width:900px; 
+    padding:30px; 
+    margin: 50px auto;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    background-color: rgb(251, 251, 243);
+}
+
+.card-left{
+    flex: 45%;
+}
+
+.link{
+    margin-top: 80px;
+    margin-right: 70px;
+    float: unset;
+}
+
+.medsos{
+    width: auto;
+    margin-top: 80px;
+}
+
+.medsos button{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.card-right{
+    flex: 30%;
+    float: right;
+    margin-right: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-right img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+
+

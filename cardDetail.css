@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.card{
+    display: contents;
+    margin: 30px;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card img {
+    width:auto;
+    height: 300px;
+}
+
+.card-content{
+    margin: 10px;
+    text-align: justify;
+}

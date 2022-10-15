@@ -1,0 +1,173 @@
+*{
+    text-decoration: none;
+
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(251, 251, 243);
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.home{
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li img {
+    width: 70px;
+}
+
+.nav-left{
+    flex: 60%;
+}
+
+.nav-right{
+    flex: 30%;
+    text-align: end;
+    margin-right: 70px;
+}
+
+.nav-right a {
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.addProject{
+    background-color: aliceblue;
+}
+
+form{
+    width: 400px;
+    margin:  auto;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+form div {
+    margin: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#input-name{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.date{
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#start-date{
+    width: 100%;
+  
+}
+
+#endt-date{
+    width: 100%;
+}
+
+
+
+textarea {
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+
+.technologies input{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 25;
+    padding: 10px
+}
+
+button {
+    float: right;
+    background-color: black;
+    color: #ffffff;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+h1{
+    text-align: center;
+}
+
+.tombol{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.card{
+    width: 350px;
+    margin: 30px;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+
+
+.card img {
+    width: 100%;
+    height: 300px;
+}
+
+
+.btn-group{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.btn-group .btn-edit{
+    margin-right: 5px;
+}
+
+
+
+
