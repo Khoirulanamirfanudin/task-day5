@@ -141,11 +141,21 @@ h1{
     justify-content: end;
 }
 
+
+
+.card-list{
+  
+    display: flex;
+    align-items: auto;
+    flex-direction: row;
+}
+
+
 .card{
     width: 350px;
     margin: 30px;
-    flex-direction: column;
     border: 1px solid black;
+  
 }
 
 
